@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login and registration form</title>
+</head>
+<body>
+    <div class="login_page">
+        <div class="form">
+
+            <!-- registration page -->
+
+            <form id="register-form" onsubmit="validateForm(event)" method="post">
+                <input type="text" id="fname" name="fofname" placeholder="first name"/>
+                <b><span class="formerror" id="formerror1"></span></b>
+
+                <input type="text" id="lname" name="folname" placeholder="last name"/>
+                <b><span class="formerror" id="formerror2"></span></b>
+
+                <input type="email" id="email" name="fophone" placeholder="email-id"/>
+                <b><span class="formerror" id="formerror3"></span></b>
+                
+                <input type="number" id="phone" name="fophone" placeholder="number"/>
+                <b><span class="formerror" id="formerror4"></span></b>
+
+                <input type="text" id="userID" name="fouserID" placeholder="user name"/>
+                <b><span class="formerror" id="formerror5"></span></b>
+
+                <input type="password" id="pass" name="fopass" placeholder="password"/>
+                <b><span class="formerror" id="formerror6"></span></b>
+
+                <input type="password" id="cpass" name="focpass" placeholder=" confirm password"/>
+                <b><span class="formerror" id="formerror7"></span></b>
+                
+                <button>Sign-Up</button>
+                <p class="message">Already Registered? <a href="#">Log in</a></p>
+            </form>
+        
+
+
+            </form>
+        </div>
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="./index.js"></script>
+    
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 class="fheading">Register to watch best anime series</h1>
+    <div class="main_fcontent">
+        <form action="welcome.html" name="myForm" onsubmit="validateForm(event)" method="post">
+            <span class=formsuccess></span>
+            <div class="formdesign" >
+                Name: <input type="onlyalphabet" id="user" name="foname" ><b><span id="formerror1"> </span></b>
+            </div>
+
+            <div class="formdesign" >
+                Email: <input type="email" id="email" name="foemail" ><b><span id="formerror2"> </span></b>
+            </div>
+
+            <div class="formdesign" >
+                Phone: <input type="number" id="phone" name="fophone" ><b><span id="formerror3"></span></b>
+            </div>
+
+            <div class="formdesign" >
+                Password: <input type="password" id="pass" name="fopass" ><b><span id="formerror4"></span></b>
+            </div>
+
+            <div class="formdesign" >
+                Confirm Password: <input type="password" name="focpass" id="cpass" ><b><span id="formerror5"> </span></b>
+            </div>
+
+            <input id="but" type="submit" value="Submit" onclick="location.href='welcome.html'" >
+
+            <!-- onclick="location.href='./welcome.html'" target="_blank" -->
+
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

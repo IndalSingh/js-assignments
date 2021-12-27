@@ -1,0 +1,88 @@
+body{
+    background-image: url("./office2-bg.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+.login_page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(60, 60, 68, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.form input{
+    font-family: 'Roboto', sans-serif;
+    outline: 1;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form button:hover , .form button:active{
+    background: #43a047;
+}
+.formerror{
+    color: red;
+    margin-bottom: 2px;
+    padding: 0px;
+}
+.form .message{
+    margin: 15px 0 0;
+    color: white;
+    font-size: 12px;
+}
+.form .message a{
+    text-decoration: none;
+    color: cadetblue;
+}
+/* .form #register-form {
+    display: none;
+} */
+
+#formerror1, #formerror2 ,#formerror3, #formerror4 ,#formerror5 ,#formerror6, #formerror7{
+    color: red;
+    margin-bottom: 2px;
+    padding: 0px; 
+}
+#formerror01, #formerror02{
+    color: red;
+    margin-bottom: 2px;
+    padding: 0px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

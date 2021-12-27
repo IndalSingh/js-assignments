@@ -1,0 +1,51 @@
+
+
+
+
+
+		 sir ko course share krne k liye ping krke yaad dilana h??
+
+
+
+
+
+   Q:- fetch api from the server and  do exception handling in that.
+	
+	solution :-
+export async function getStaticProps(context) {
+  const res = await fetch(`https://...`)
+  const data = await res.json()
+
+  //use this statement for the program not to crush but go back to the home page
+  if (!data) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      },
+    }
+  }
+
+  return {
+    props: {}, // will be passed to the page component as props
+  }
+}
+
+
+Per MDN, the fetch() API only rejects a promise when a “network error is encountered, although this usually means permissions issues or similar.” 
+Basically fetch() will only reject a promise if the user is offline, or some unlikely networking error occurs, such a DNS lookup failure.
+
+
+
+
+
+
+
+
+
+assignment 5:- fetch api and display it
+assignment6 digital clock
+
+
+localStorage.setItem('')
+

@@ -1,0 +1,47 @@
+
+body {
+    padding: 10px 50px;
+    background-image: url("./fRizU7.jpg");
+    background-blend-mode: lighten;
+    background-size: cover;
+    /* display: ;
+    justify-content: center; */
+}
+.fheading{
+    color: rgb(243, 209, 209) ;
+    text-align: center;
+}
+.main_fcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formdesign {
+    font-size: 20px;
+    color: rgb(240, 229, 229);
+    display: flex;
+    align-items: center;
+}
+.formdesign input {
+    width: 50%;
+    padding: 12px 20px;
+    border: 1px solid blue;
+    margin: 14px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+ #formerror1,#formerror2,#formerror3,#formerror4,#formerror5 {
+    color: red;
+}
+#formsuccess1,#formsuccess2,#formsuccess3,#formsuccess4,#formsuccess5{
+    color: rgb(14, 243, 14);
+}
+
+.but {
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    margin: 22px 20px;
+    margin-left: 30%;
+}
